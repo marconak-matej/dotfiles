@@ -14,7 +14,7 @@ brew cask install opera
 brew cask install spectacle
 brew cask install dropbox
 brew cask install gyazo
-brew cask install 1password
+brew cask install lastpass
 brew cask install rescuetime
 brew cask install vlc
 
