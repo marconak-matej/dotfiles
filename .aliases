@@ -28,9 +28,10 @@ alias lsd='ls -l | grep "^d"' # only directories
 #    `la` defined in .functions
 ###
 
-alias push="git push"
-alias push="git pull"
-
+alias gp="git push"
+alias gpl="git pull"
+alias gs="git status"
+alias gc="git commit"
 alias master="git checkout master"
 
 # Networking. IP address, dig, DNS
@@ -39,7 +40,9 @@ alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 # wget sucks with certificates. Let's keep it simple.
 alias wget="curl -O"
 
-# Recursively delete `.DS_Store` files
+alias zz="z" # for typo z
+
+ # Recursively delete `.DS_Store` files
 alias cleanup_dsstore="find . -name '*.DS_Store' -type f -ls -delete"
 
 alias diskspace_report="df -P -kHl"

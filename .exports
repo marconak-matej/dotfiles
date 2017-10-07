@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/mm/.oh-my-zsh
+export ZSH="/Users/mm/.oh-my-zsh"
 
 # how often to auto-update (in days).
 export UPDATE_ZSH_DAYS=2
@@ -24,4 +24,4 @@ eval "$(gdircolors -b ~/.dircolors)"
 # visual code
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
-export PATH="/usr/local/sbin:$PATH
+export PATH="/usr/local/sbin:$PATH"
